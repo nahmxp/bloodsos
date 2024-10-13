@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181473215191",
+    "project_id": "bloodsos-63d9a",
+    "storage_bucket": "bloodsos-63d9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181473215191:android:d26109ea0c57cbbf366692",
+        "android_client_info": {
+          "package_name": "Blood.SOS"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgkh3KksSqg-PsJ3SkitfPAupHclOQv04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+### App Development Documentation
+
+#### Overview:
+This app is designed to assist users in registering, logging in, and accessing critical features related to blood donation and emergencies. The app ensures users' data is persistent and accessible only to those within the app's active network. The core features include account management, blood request, distress calls, and a live map for tracking users sharing their location.
+
+---
+
+#### **User Registration & Authentication:**
+1. **Initial Setup:**  
+   Upon launching the app, users are greeted with a **Sign In** or **Sign Up** page.
+2. **Persistent Login:**  
+   Once the user signs in or registers, they remain logged in every time they open the app, eliminating the need for repeated login sessions.
+
+---
+
+#### **Main Menu Options:**
+After successful login, the user is presented with four primary options:
+
+##### **1. Edit Info:**
+Users can customize their profiles with the following:
+- **Name:** Input and update their full name.
+- **Age:** Input and update their current age.
+- **Blood Group:** Select and update their blood type.
+- **Contact Number:** Users can choose to display their phone number publicly or keep it private with a toggle switch for "on/off."
+- **Location Sharing:** Users have the option to turn on or off location sharing. When activated, their location is shared with other app users.
+
+##### **2. Request Blood:**
+This feature allows users to request blood donations by specifying:
+- **Date:** Select the required date for the donation.
+- **Time:** Input the required time for the donation.
+- **Place:** Users can select a location via an integrated map feature.
+- **Patient Information:** Enter the patient’s name, age, and gender.
+- **Blood Amount:** Specify the number of blood bags required.
+
+##### **3. Distress Call:**
+This option triggers an emergency alert for urgent blood requests:
+- **Blood Group & Amount:** The user selects their required blood group and the number of blood bags needed.
+- **Confirm Distress Call:** Users are asked to confirm the distress call, which automatically enables location sharing.
+- **Location and Notification:** Once confirmed, the user's location and contact number are shared on the map, indicated by a red alert. Notifications are sent to all users within a 50-kilometer radius who have their location sharing active.
+
+##### **4. Show Map:**
+- This feature opens a Google Map that displays the location of users who have opted to share their location.
+- Clicking on a user reveals their blood group and contact number.
+
+---
+
+#### **For UI/UX Designers:**
+
+#### **App User Flow & Experience:**
+1. **Login Screen:**  
+   The first interaction with the app should feel seamless and simple, providing clear options to log in or register with email. The design should prioritize clarity and minimal steps to ensure quick user onboarding.
+   
+2. **Main Dashboard:**  
+   Post-login, users should immediately see four clear, visually distinct options (Edit Info, Request Blood, Distress Call, Show Map). The layout must be intuitive and responsive, ensuring easy navigation.
+
+3. **Edit Info Page:**  
+   Each form input should be well-spaced and easy to interact with. The toggles for sharing contact and location should be prominent, with clear indicators of their status (on/off).
+
+4. **Request Blood:**  
+   This page should include a user-friendly form with drop-down options for selecting the date, time, place (with an interactive map for easy location picking), and patient details. The design should emphasize ease of input while ensuring the process feels secure.
+
+5. **Distress Call Page:**  
+   A simple, step-by-step interface where users first select blood group and quantity. The confirmation page should have bold, urgent visuals to emphasize the seriousness of the distress call. Ensure that after confirmation, a visible alert is triggered in the app.
+
+6. **Map View:**  
+   Google Maps should be fully integrated, providing a clear and responsive interface. Users who have shared their location should be easily identifiable, with blood group and contact details shown upon interaction.
+
+---
+
+By focusing on simplicity, intuitive navigation, and user-friendly designs, this app can ensure a smooth and impactful experience for users in both regular and emergency scenarios.
